@@ -1,0 +1,144 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 42px;
+    margin-top: 47px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-content: center;
+    color: #17233D;
+    cursor: pointer;
+    letter-spacing: 0.88px;
+    margin-right: 32px;
+}
+
+#signup-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+}
+
+main {
+    display: inline-block;
+}
+
+#logo-img {
+    margin: 165px 96px 0px 121px;
+}
+
+section {
+    width: 550px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.8px;
+    margin: auto;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    letter-spacing: 0.5px;
+    margin: 47px 0 55px 0;
+    padding-right: 49px;
+}
+
+#learn-more {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .link-header {
+        visibility: hidden;
+    }
+
+    #signup-button {
+        font-size: 12px;
+        line-height: 18px;
+        width: 91px;
+        height: 31px;
+        left: 80%;
+        position: absolute;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #logo-img {
+        position:absolute;
+        width: 70vw;
+        height: auto;
+        margin: auto;
+        top: 108vw;
+        padding-bottom: 10%;
+    }
+    
+    h1{
+        font-size: 8vw;
+        margin-top: 20%;
+    }
+
+    p {
+        font-size: 3.6vw;
+        padding: 0;
+        line-height: 200%;
+    }
+
+    #learn-more {
+        font-size: 3.6vw;
+    }
+
+}
